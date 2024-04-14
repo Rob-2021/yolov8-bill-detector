@@ -1,0 +1,13 @@
+train: E:\yolov8DeteccionBilletes\train\images
+val: E:\yolov8DeteccionBilletes\valid\images
+test: E:\yolov8DeteccionBilletes\test\images
+
+nc: 2
+names: ['billete-falso', 'billete-verdadero']
+
+roboflow:
+  workspace: ia3-proyecto
+  project: detector-de-billetes
+  version: 2
+  license: Public Domain
+  url: https://universe.roboflow.com/ia3-proyecto/detector-de-billetes/dataset/2
